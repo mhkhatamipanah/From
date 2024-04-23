@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: alkara;
+  src: url("./Assets/fonts/Alkatra-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: siginaka;
+  src: url("./Assets/fonts/Signika-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: concertone;
+  src: url("./Assets/fonts/Capriola-Regular.ttf");
+}
+.App {
+  min-height: 91vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.container-table {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 0 2% 100px 2%;
+  -webkit-overflow-scrolling: touch;
+}
+table {
+  margin: 0;
+  border-radius: 5px;
+}
+.containerr {
+  width: 100%;
+}
+.containerr table {
+  width: 80%;
+}
+@media only screen and (max-width: 1000px) {
+  .id-col {
+    padding-left: 5rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .id-col {
+    padding-left: 7.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .id-col {
+    padding-left: 11rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+    .id-col {
+      padding-left: 15.5rem;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .id-col {
+      padding-left: 20rem;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .id-col {
+      padding-left: 22rem;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .id-col {
+      padding-left: 26rem;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .id-col {
+      padding-left: 30rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .id-col {
+      padding-left:32rem;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .id-col {
+      padding-left: 36;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .id-col {
+      padding-left: 37rem;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .id-col {
+      padding-left: 40rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .id-col {
+      padding-left: 42rem;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .id-col {
+      padding-left: 45rem;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .id-col {
+      padding-left: 46rem;
+    }
+  }
+
+.font-title-google {
+  font-family: siginaka;
+}
+.font-detail-google {
+  font-family: concertone;
+}
